@@ -1,0 +1,29 @@
+body {
+    background-image: url("https://th.bing.com/th/id/OIP.xxD4IRubwLpkaC9o095yUwHaEK?w=254&h=180&c=7&r=0&o=5&dpr=2&pid=1.7");
+}
+div {
+    background-color: bisque;
+    padding: 5px;
+    text-align: center;
+}
+.BigOne {
+    background-color: azure;
+    height: 75%;
+    width: 90%;
+    margin: auto;
+    border: 3px solid black;
+    margin-top: 4px;
+}
+.Left {
+    top: 5px;
+    width: 96%;
+    border: 3px dashed black;
+    margin-top: 3px;
+}
+.Right {
+    top: 0px;
+    left: 100%;
+    width: 96%;
+    border: 3px dashed black;
+    margin-top: 3px;
+}
