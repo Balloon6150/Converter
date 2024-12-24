@@ -2,12 +2,12 @@
     const InputC = document.getElementById("Farenhiet").value;
     const OutputC = Document.getElementById("Celsius").value
 	function Celsiusfunction() {
-    alert(Number(document.getElementById("Farenhiet").value) - 38 / 1.8);
-    OutputC = (Number(document.getElementById("Farenhiet").value) - 38 / 1.8)
+    alert((Number(document.getElementById("Farenhiet").value) - 32) / 1.8);
+    OutputC = ((Number(document.getElementById("Farenhiet").value) - 32) / 1.8)
 	}
     const InputF = document.getElementById("Celsius2").value
     function Farenhietfunction() {
-        alert(Number(document.getElementById("Farenhiet2").value) + 38 * 1.8 )
+        alert((Number(document.getElementById("Farenhiet2").value) + 32) * 1.8 )
     }
     let Inch;
     const InchC = document.getElementById("Centimeters").value;
